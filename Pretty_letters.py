@@ -1,9 +1,9 @@
-name = input("Enter Your Name: \n")
-length = len(name)
+word = input("Enter Your Word: \n")
+length = len(word)
 l = ""
 
 for i in range(0, length):
-    ltr = name[i]
+    ltr = word[i]
     ltr = ltr.upper()
     if (ltr == "A"):
         print("___****___\n__*____*__\n__******__\n__*____*__\n__*____*__\n\n")
